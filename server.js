@@ -5,10 +5,10 @@ const path = require("path");
 // ===== MAKE IT YOURS: Horse Racing Theme =====
 const APP_TITLE = "Horse Race Betting Cards";
 const ITEM_NAME = "horse";
-const OWNER = "Your Name"; // Replace with your actual name
+const OWNER = "Jave Martin Bunag"; // Replace with your actual name
 // ============================================
 
-const items = [{ id: 1, text: "Sample " + ITEM_NAME + ": Thunder Hooves (Odds: 4/1)" }];
+const items = [{ id: 1, text: "Sample " + ITEM_NAME + ": Almond Eye(Odds: 4/1)" }];
 
 function sendJson(res, status, data) {
   res.writeHead(status, { "Content-Type": "application/json" });
